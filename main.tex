@@ -42,7 +42,7 @@ It is considered that the more keywords in questions are matched with those in t
 \begin{figure}[htb]
 \centering
 \includegraphics[width=4in]{figures/character_overlap.eps}
-\caption{X axis means the number of overlapped characters in both question and answer sentences.Y axis refers to the probable occurrence frequency of the target answer. Data are dispersed in the range between 22 and 50 because the samples are not enough.}
+\caption{x-axis means the number of overlapped characters in both question and answer sentences.y-axis refers to the probable occurrence frequency of the target answer. Data are dispersed in the range between 22 and 50 because the samples are not enough.}
 \label{fig:character_overlap}
 \end{figure}
 
@@ -50,7 +50,7 @@ It is considered that the more keywords in questions are matched with those in t
 \begin{figure}
 \centering
 \includegraphics[width=4in]{figures/word_overlap.eps}
-\caption{X axis means the number of overlapped words in both question and answer sentences. Y axis refers to the probable occurrence frequency of the target answer. Data scatters after the number of 14 for the lack of words samples.}
+\caption{x-axis means the number of overlapped words in both question and answer sentences. y-axis refers to the probable occurrence frequency of the target answer. Data scatters after the number of 14 for the lack of words samples.}
 \label{fig:word_overlap}
 \end{figure}
 
@@ -59,7 +59,19 @@ We first segment the question and answer sentences into a series of characters a
 \subsubsection{Position Message in Overlapped Words}
 In Chinese grammer, different grammatical elements are usually distributed in different position in a sentence.For example, in a classic question, the entities concerned usually turn up in the front of a sentence, which follows the interrogatives like ,”什么？几个？多少？”.People have various speaking habits when they organize a sentence in Chinese.For instance, premises are more inclined to appear first in one sentence.So it is reasonable to consider keywords’ position message when we are trying to get the degree of how question and answer matches. We try to give different weights to keywords in different positions in a sentence.Meanwhile, weights may also be concerned with words’ idf values, which means the discrimination of words.
 
+\begin{figure}
+\centering
+\includegraphics[width=4in]{figures/character_position.eps}
+\caption{x-axis refers to the position of the overlapped characters in question sentences. x=0 means that the overlapped character is on the front of  a sentence.x=100\% means the overlapped character is on the back of a sentence.y-axis means the occurrence frenquency of correct answers.}
+\label{fig:character_position}
+\end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[width=4in]{figures/word_position.eps}
+\caption{Similar to \ref{fig:character_position}, this figure shows the relationship between the position of the overlapped words in question sentences and the occurrence frenquency of correct answers.}
+\label{fig:word_position}
+\end{figure}
 
 
 
