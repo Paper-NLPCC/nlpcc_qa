@@ -11,10 +11,31 @@
 %
 \begin{document}
 
-
+\title{An Approach for the Chinese Question-answer System based on Document}
+%
+\titlerunning{Chinese Question-answer System}  % abbreviated title (for running head)
+%                                     also used for the TOC unless
+%                                     \toctitle is used
+%
+\author{Benyou Wang\inst{1} \and Jiabing Niu\inst{1} \and Liqun Ma\inst{1} \and Yuhua Zhang\inst{1} \and Lipeng Zhang\inst{1} 
+\and Peng Zhang\inst{1}}
+%
+\authorrunning{Benyou Wang et al.} % abbreviated author list (for running head)
+%
+%%%% list of authors for the TOC (use if author list has to be modified)
+\tocauthor{Benyou Wang, Jiabing Niu, Liqun Ma, Yuhua Zhang, Lipeng Zhang
+, and Peng Zhang}
+%
+\institute{%
+Tianjin Key Laboratory of Cognitive Computing and Application, School of Computer Science and Technology, Tianjin University, Tianjin, China\\
+% \and Computing and Communications Department, The Open University, United Kingdom \\
+% \and Department of Information Engineering, University of Padua, Italy
+}
 
 
 \maketitle              % typeset the title of the contribution
+
+
 
 \begin{abstract}
 Question Answering system has gradually become a new trend within the field of information retrieval and NLP. It outperforms the conventional search engines, for the system is able to answer users’ questions automatically and accurately. Question Answering system based on English corpus has developed rapidly, whereas the Chinese corpus based Question Answering system still has some problems remains to be solved. Thus, developing a new Question Answering model, which is characterized by dealing with features of Chinese corpus is extemely essentail. Different to the current deep learning model, our model uses the semantic and syntactic information in Chinese corpus and bases on the linearity of Chinese texts. Finally, our model turns out to perform better than other methods through experiments.\dots
@@ -22,18 +43,20 @@ Question Answering system has gradually become a new trend within the field of i
 \end{abstract}
 %
 \section{Introduction}
+
 %
 
 
 \section{Related Work}
-% just test a cite~\cite{Severyn2015Learning}
+just test a cite~\cite{Severyn2015Learning}
 
 \section{Methods}
 
 %\subsection{Data Exploration}
+We adopt a classical process for a competition task, with the successive steps from data exploration (in Sec~\ref{sec:exploration}), data preprocess (in Sec~\ref{sec:preprocess}), feature extraction (in Sec~\ref{sec:feature}) to model selection (in Sec~\ref{sec:model}).
 
 \subsection{Data Exploration}
-
+\label{sec:exploration}
 \subsubsection{Word Overlap and Character Overlap}
 It is considered that the more keywords in questions are matched with those in the answer sentences, the more likely that the answer is the correct one.We have found that there are some relationships between the overlapped characters or words and the occurrence frequency of the correct answer after analysing the given corpus.
 
@@ -75,27 +98,35 @@ In Chinese grammer, different grammatical elements are usually distributed in di
 
 
 
-First we segment the question and answer sentences into characters (words) and then count the overlapped characters(words) and their position in both questions and answers.It is obvious that the overlapped characters(words) which often appear on the back of one sentence tends to be more important for us to find out the correct answer among answer text sets. We can also conclude from the two figures above that keywords or characters are more likely to appear on the back of the question sentences. Thus, we should give them higher weight than the rest.
+Firstly, we segment the question and answer sentences into characters (words) and then count the overlapped characters(words) and their position in both questions and answers.It is obvious that the overlapped characters(words) which often appear on the back of one sentence tends to be more important for us to find out the correct answer among answer text sets. We can also conclude from the two figures above that keywords or characters are more likely to appear on the back of the question sentences. Thus, we should give them higher weight than the rest.
 Unforturnatly,word-overlap based method is still based on the hypothesis of word independence. Synonym rewriting based methods and translation model could model words which are extremely closed in meaning to some extent. To enumerate a rewriting templet(translate templet) of high quality and maturity is never a easy task. Current embedding methods, to some degree, model this kind of semantic similarity from semantic space of high dimensional, which will be analysed in section ??.
 In Chinese,word group is composed of more Fined-grained characters. And word based overlap is a crude method to consider the correlation between words, which can be combined with other methods.
 
 
 \subsection{Data Preprocessing}
+\label{sec:preprocess}
+
 We uses the pynlpir package(http://github.com/tsroten) to segment both the question sentences and the answer texts into word groups and we base our next work on these words.We then omit some of the stop words like “的，是，在…”in those word groups according to the stop words list(http://).It is necessary to cut out several meaningless words since it is of great help to extracting the words overlap feature.Finally, we get a processed dataset of words.
+
+% Other than the tranditional preprocess for Chinese text data, we try to expand some words to the original question for
 
 
 \subsection{Feature Extraction}
+\label{sec:feature}
+
 \subsubsection{Questions and Answers’ Type}
 Question sentence’s type is usually a kind of vital signal.It is a prerequisite but not sufficient condition when distinguishing whether the given sentence is a correct answer or not. For example, for the question “中央大学的校长是谁？”,when the name entity related to person appears in one of the answer texts,it is probably that this sentence is the exact correct answer.But if little information is mentioned in the sentence,it is certain that the sentence will never be the target answer.Therefore, the type information is a prerequisite but not sufficient condition on defining the target answers. 
-The answers to questions can be divided into 5 types(引用) and 3 of them are concerned with name entity, which are Person, Place, Organization.The others are Time and Number. In fact, a learning based way of finding out which type the question and answer belongs to could also make sense.However, we adopt the methods of extracting name entity to define the types of Person, Place and Organization and use model to find out the types of Time and Number because of the lack of supervised training and testing samples for learning. It turns out that our methods could cover more than 80\% cases and receive better results.
-We adopt the LTP online API when naming entities.Meanwhile,we use templets to match keywords in anwers when naming entities in the types of Time and Number.
-When we code,two methods are adopted.The first one is Dummp Number.The 5 types are viewed as 5 kinds of vectors. For each type, we use one-dimensional vector to indicate whether Question and Answer are matched or not.At the same time, or operation is made among the 5 types and the result is viewed as an one-dimensional vector for the reason that the result of each type is too sparse to count.
-The second method is that the answer texts which are well matched by keywords in the question are marked as “1” and those which are not matched are marked as “0”.
+
+The answers to questions can be divided into 5 types(引用) and 3 of them are concerned with name entity, which are Person, Place, Organization. The others are Time and Number. In fact, a learning based way of finding out which type the question and answer belongs to could also make sense.However, we adopt the methods of extracting name entity to define the types of Person, Place and Organization and use model to find out the types of Time and Number because of the lack of supervised training and testing samples for learning. It turns out that our methods could cover more than 80\% cases and receive better results.
+
+We adopt the LTP online API \footnote{http://www.ltp-cloud.com/} for Named Entity Recognition (NER). Meanwhile, we use keywords templets to distinguish the types of Time and Number.
+
+In coding, two methods are adopted. The first one is Dummp Number. The 5 types are viewed as 5 kinds of vectors. For each type, we use one-dimensional vector to indicate whether Question and Answer are matched or not.At the same time, or operation is made among the 5 types and the result is viewed as an one-dimensional vector for the reason that the result of each type is too sparse to count. The second method is that the answer texts which are well matched by keywords in the question are marked as “1” and those which are not matched are marked as “0”.
 
 
 \subsubsection{Overlap}
-As QA pair match and Correlation have been mentioned in section??, namely,the more words are overlapped in both question and answer sentences,the more likely that the answer is the target one.
-In these features, the removation of stop words seems to be vital due to the ignorance of the meaningless words.
+As QA pair match and Correlation have been mentioned in Sec~\ref{sec:exploration}, namely,the more words are overlapped in both question and answer sentences, the more likely that the answer is the target one.
+In these features, the removation of stop words seems to be vital due to the ignorance of the meaningless words. For Chinese text, it's hard for us to find the dictionay which can contains all the near-synonym pairs. An alternative approch is use the charcter-based (or ) metric due to the fact that many near-synonym pairs shares the same charcter in Chinses 
 
 
 \subsubsection{Other Conventional Methods}
@@ -103,11 +134,22 @@ Edit distance is usually used to measure the length of similar strings in Englis
 The length of the answer texts is also a significant feature.
 
 
-\subsubsection{Embedding}
-We use embedding model as our main model.Embedding means to embed words into a high dimensional semantic space, which makes it easier to find the relationship between words. Sentence is simply considered to have been lapped by words linearly. As what have been mentioned in section??, we will give different weights to different words,which depends on their position, semantic structure and idf.
+\subsubsection{Embedding-based approach}
+We use embedding model as our main model. Embedding means to embed words into a high dimensional semantic space, which makes it easier to find the relationship between words. Sentence is simply considered to have been lapped by words linearly. As what have been mentioned in Sec~\ref{sec:discussion}, different words can contribute different weights for the whole meaning of a sentence, which depends on their position, semantic structure and idf. 
+
+Besides these linear combination of the inside word embedding, we have build a CNN model to test how much the question-answer pair matches. 
+\begin{figure}
+\centering
+\includegraphics[width=16cm]{figures/model.eps}
+\caption{ The picture need to be repainted}
+\label{fig:model}
+\end{figure}
+
 
 
 \subsection{Model Selection}
+\label{sec:model}
+
 We have presented various fundamental features in last chapter,which will directly effect the degree of how question and answer matches.We adopt a linear regression model to integrate those features.While some integrated learning methods like Ada Boost and bagging models are also used. 
 
 
@@ -118,9 +160,9 @@ We have presented various fundamental features in last chapter,which will direct
 
 
 \section{Discussion and Conclution}
-
-
-
+\label{sec:discussion}
+chinese
+\cite{Li2015Component}
 
 
 
@@ -129,17 +171,17 @@ We have presented various fundamental features in last chapter,which will direct
 %
 % ---- Bibliography ----
 %
-\begin{thebibliography}{}
+% \begin{thebibliography}{}
 %
-\bibitem{Rodriguez.{2010}}
-Open Source Cloud Computing Tools: A Case Study with a Weather Application
-Rodriguez-Martinez, M.; Seguel, J.; Greer, M.
-Cloud Computing (CLOUD), 2010 IEEE 3rd International Conference on
-Year: 2010
-% \bibliography{nlpcc_qa}
-% \bibliographystyle{IEEEtran}
+% \bibitem{Rodriguez.{2010}}
+% Open Source Cloud Computing Tools: A Case Study with a Weather Application
+% Rodriguez-Martinez, M.; Seguel, J.; Greer, M.
+% Cloud Computing (CLOUD), 2010 IEEE 3rd International Conference on
+% Year: 2010
+\bibliography{nlpcc_qa}
+\bibliographystyle{IEEEtran}
 
-\end{thebibliography}
+% \end{thebibliography}
 
 
 
