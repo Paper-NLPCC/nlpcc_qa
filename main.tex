@@ -44,9 +44,10 @@ Question Answering system has gradually become a new trend within the field of i
 %
 \section{Introduction}
 
-This paper will elaborate our methods and experiments for the Open Domain Questin Answering shared sub-task of Document-based QA task in NLPCC 2016. The aim of the task is to build a system which can predict answers to each given question. The target answers are only supposed to be selected from the question's given document contains a set of answer sentences. Our work is to train necessary models to generate answers which are highly related to the given questions. And the results will finally be evaluated by the evaluation metrics to figure out the performance of our system.  
 
-We propose a method which integrates various features extracted from the question and answer sentences to form a model, which makes full use of the semantic and syntactic information as well as the linearity of Chinese corpus. And our model outperforms other models including deep learning model according to the  experimental results.  
+This paper will elaborate our methods and experiments for the Open Domain Questin Answering shared sub-task of Document-based QA task in NLPCC 2016. The aim of the task is to build a system which can predict answers to each given question. The target answers are only supposed to be selected from the question's given document contains a set of answer sentences. Our work is to train necessary models to generate answers which are highly related to the given questions. And the results will finally be evaluated by the evaluation metrics to figure out the performance of our system. For example, for the given question “俄罗斯贝加尔湖的面积有多大?”in training set, the correct answer “贝加尔湖长636公里，平均宽48公里，最宽79.4公里，面积3.15万平方公里” will be labled \\t1 and the rest answer sentences to the question will all be labled \\t0. Our model should generate a set of relevance scores between the question and each answer sentence including the correct answer in the test set. The evaluation toolkit which has test sets labeled golden answer annotations to questions will rank all answer sentences according to these scores. And finally give the MRR and MAP value of our model as the evaluation metrics.
+
+We propose a method which integrates various features extracted from the question and answer sentences to form a model, which makes full use of the semantic and syntactic information as well as the linearity of Chinese corpus. The methods will be detailed in the following sections. And our model outperforms other models including deep learning model according to the  experimental results.  
 
 The structure of this paper can be listed as follows. Section 2 introduces some work related to the question answering system. Section 3 describes the methods including features and model which we use to complete the shared task. Section 4  presents the experiments and results we get. Section 5 are discussions and conclutions.
 
@@ -118,7 +119,7 @@ We uses the pynlpir package \footnote{http://github.com/tsroten} to segment both
 \label{sec:feature}
 
 \subsubsection{Questions and Answers’ Type}
-Question sentences’ type is usually a kind of vital signal.It is a prerequisite but not sufficient condition when distinguishing whether the given sentence is a correct answer or not. For example, for the question “中央大学的校长是谁？”,when the name entity related to person appears in one of the answer texts,it is probably that this sentence is the exact correct answer.But if little information is mentioned in the sentence,it is certain that the sentence will never be the target answer.Therefore, the type information is a prerequisite but not sufficient condition on defining the target answers. 
+Question sentences’ type is usually a kind of vital signal.It is a prerequisite but not sufficient condition when distinguishing whether the given sentence is a correct answer or not. For example, for the question “中央大学的校长是谁？”,when the name entity related to person appears in one of the answer texts,it is probably that this sentence is the exact correct answer.But if little information is mentioned in the sentence,it is certain that the sentence will never be the target answer.Therefore, the type information helps to classify questions and answers as well as find the target answers. 
 
 The answers to questions can be divided into 5 types(引用) and 3 of them are concerned with name entity, which are Person, Place, Organization. The others are Time and Number. In fact, a learning based way of finding out which type the question and answer belongs to could also make sense.However, we adopt the methods of extracting name entity to define the types of Person, Place and Organization and use model to find out the types of Time and Number because of the lack of supervised training and testing samples for learning. It turns out that our methods could cover more than 80\% cases and receive better results.
 
@@ -157,7 +158,6 @@ Besides these linear combination of the inside word embedding, we have build a C
 We have presented various fundamental features in last chapter,which will directly effect the degree of how question and answer matches.We adopt a linear regression model to integrate those features.While some integrated learning methods like Ada Boost and bagging models are also used. 
 
 
-
 \section{Experimental results}
 
 
@@ -169,15 +169,22 @@ The provided datasets \footnote{ http://tcci.ccf.org.cn/conference/2016/pages/pa
 \subsection{Evaluation Metrics}
 Our Question Answering system will be evaluated by MRP and MAP. Mean Reciprocal Rank(MRR) mainly indicates that whether the recall results good or not depend on the rank of the correct answer, namely the higher the correct answer ranked, the better the results are. 
 
-MRR公式
+\begin{equation}
+MRR=\frac{1}{|Q|}\sum_{i=1}^|Q|\frac{1}{rank_{i}}
+\end{equation}
 
-|Q| stands for the total number of questions in the evaluation set. For the \(i^{th}\) question \(Q_{i}\), \(rank_{i}\) represents the position of the first correct answer in the generated answer set \(C_{i}\). \(\frac{1}{rank_{i}}\) equals 0, if \(C_{i}\) doesn't have the correspond answer with the golden answers \(A_{i}\) for \(Q_{i}\). For example, if there are 4 queries in the test set. Suppose the correct answers for the first 3 queries are ranked 3,1,5 respectively and there is no answer for the last query. \(MRR=(\frac{1}{3}+\frac{1}{1}+\frac{1}{5}+0)1\/4=0.383\)
+$|Q|$ stands for the total number of questions in the evaluation set. For the \(i^{th}\) question \(Q_{i}\), \(rank_{i}\) represents the position of the first correct answer in the generated answer set \(C_{i}\). \(\frac{1}{rank_{i}}\) equals 0, if \(C_{i}\) doesn't have the correspond answer with the golden answers \(A_{i}\) for \(Q_{i}\). For example, if there are 4 queries in the test set. Suppose the correct answers for the first 3 queries are ranked 3,1,5 respectively and there is no answer for the last query. 
+$$MRR=(\frac{1}{3}+\frac{1}{1}+\frac{1}{5}+0)\frace{1}{4}=0.383$$
 
 Another evaluation metric is Mean Average Precision(MAP), which can be defined as follows.
 
-MAP公式 Avg公式 
+\begin{equation}
+MAP=\frac{1}{|Q|}\sum_{i=1}^|Q|AveP(C_{i},A_{i})
 
-MAP mainly refers to the average precision of the results. If the correct anwser ranks high in the retrieved answer set, the value of MAP will be high accordingly.m denotes the number of correct answer sentences and n the number of retrieved answer sentences. P(k) is the precision at cut-off k, which is the rank in the sequence of retrieved answer sentences. rel(k) equals 1 if the item at rank k is an answer sentence, and 0 if not. 
+AveP(C,A)=\frac{\sum\nolimits_{k=1}^n(P(k)\cdot{rel(k)})}{min(m,n)}
+\end{equation}
+
+MAP mainly refers to the average precision of the results. If the correct anwser ranks high in the retrieved answer set, the value of MAP will be high accordingly.m denotes the number of correct answer sentences and n the number of retrieved answer sentences. $P(k)$ is the precision at cut-off k, which is the rank in the sequence of retrieved answer sentences. $rel(k)$ equals 1 if the item at rank k is an answer sentence, and 0 if not. 
 
 
 \subsection{Results}
