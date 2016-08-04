@@ -157,7 +157,6 @@ Besides these linear combination of the inside word embedding, we have build a C
 
 \subsection{Model Selection}
 \label{sec:model}
-
 We have presented various fundamental features in last chapter,which will directly effect the degree of how question and answer matches.We adopt a linear regression model to integrate those features.While some integrated learning methods like Ada Boost and bagging models are also used.
 
 
@@ -166,14 +165,34 @@ We have presented various fundamental features in last chapter,which will direct
 
 \subsection{Dataset}
 
-The provided datasets \footnote{ http://tcci.ccf.org.cn/conference/2016/pages/page05\_evadata.html} of the document-based quetion answer task contains a training data which have the label for the ground truth and a testing data which do not have the correct label.  In the training dataset, each question have many candidate answers (mean :20.73, var: 112.29, max 30:, min:1)
+The provided datasets \footnote{ http://tcci.ccf.org.cn/conference/2016/pages/page05\_evadata.html} of the document-based quetion answer task contains a training data which have the label for the ground truth and a testing data which do not have the correct label.  In the training dataset, each question has many candidate answers and the structure of the dataset can be illustrated by Tab~\ref{tab:table1}.If a sentence is the correct answer of the question, the answer will be denoted 1, otherwise it will be annoted 1.The columns are separated by the symbol \"\\t\".
+The test set provided only contains questions and their document sentences. And our submission result only includes a column of scores which will be evaluated by the evalutin toolkit.  
 
+
+\begin{table}[!hbp]
+\caption{Training Data Structure}
+\label{tab:table1}
+\begin{tabular}{|c|c|}
+
+\hline
+俄罗斯贝加尔湖的面积有多大？\\t& 贝加尔湖是世界上最深和蓄水量最大的淡水湖。\\t0 \\
+\hline
+俄罗斯贝加尔湖的面积有多大？\\t& 它位于布里亚特共和国(Buryatiya)和伊尔库茨克州(Irkutsk)境内。\\t0\\
+\hline
+俄罗斯贝加尔湖的面积有多大？\\t& 湖型狭长弯曲，宛如一弯新月，所以又有“月亮湖”之称。\\t0\\
+\hline
+俄罗斯贝加尔湖的面积有多大？\\t& 贝加尔湖长636公里，平均宽48公里，最宽79.4公里，面积3.15万平方公里\\t1\\
+\hline
+俄罗斯贝加尔湖的面积有多大？\\t& 贝加尔湖湖水澄澈清冽，且稳定透明（透明度达40.8米），为世界第二。\\t0\\
+\end{tabular}
+\end{center}
+\end{table}
 
 \subsection{Evaluation Metrics}
 Our Question Answering system will be evaluated by MRP and MAP. Mean Reciprocal Rank(MRR) mainly indicates that whether the recall results good or not depend on the rank of the correct answer, namely the higher the correct answer ranked, the better the results are.
 
 \begin{equation}
-MRR=\frac{1}{|Q|}\sum_{i=1}^|Q|\frac{1}{rank_{i}}
+MRR=\frac{1}{|Q|}\sum_{i=1}^{|Q|}\frac{1}{rank_{i}}
 \end{equation}
 
 $|Q|$ stands for the total number of questions in the evaluation set. For the \(i^{th}\) question \(Q_{i}\), \(rank_{i}\) represents the position of the first correct answer in the generated answer set \(C_{i}\). \(\frac{1}{rank_{i}}\) equals 0, if \(C_{i}\) doesn't have the correspond answer with the golden answers \(A_{i}\) for \(Q_{i}\). For example, if there are 4 queries in the test set. Suppose the correct answers for the first 3 queries are ranked 3,1,5 respectively and there is no answer for the last query.
@@ -182,7 +201,7 @@ $$MRR=(\frac{1}{3}+\frac{1}{1}+\frac{1}{5}+0)\frac{1}{4}=0.383$$
 Another evaluation metric is Mean Average Precision(MAP), which can be defined as follows.
 
 \begin{equation}
-MAP=\frac{1}{|Q|}\sum_{i=1}^|Q|AveP(C_{i},A_{i})   \
+MAP=\frac{1}{|Q|}\sum_{i=1}^{|Q|}AveP(C_{i},A_{i})   \
 AveP(C,A)=\frac{\sum\nolimits_{k=1}^n(P(k)\cdot{rel(k)})}{min(m,n)}
 \end{equation}
 
