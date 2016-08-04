@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.28)  4 AUG 2016 16:02
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.28)  4 AUG 2016 16:05
 entering extended mode
 **C:/Users/Administrator/Documents/GitHub/nlpcc_qa/main.tex
 (C:/Users/Administrator/Documents/GitHub/nlpcc_qa/main.tex
@@ -127,6 +127,27 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
 \c@remark=\count115
 \headlineindent=\dimen123
 )
+(C:\CTEX\MiKTeX\tex\latex\cjk\CJK.sty
+Package: CJK 2008/12/29 4.8.2
+
+(C:\CTEX\MiKTeX\tex\latex\cjk\mule\MULEenc.sty
+Package: MULEenc 2008/12/29 4.8.2
+)
+(C:\CTEX\MiKTeX\tex\latex\cjk\CJK.enc
+File: CJK.enc 2008/12/29 4.8.2
+)
+LaTeX Info: Redefining \selectfont on input line 756.
+\CJK@indent=\box54
+)
+(C:\CTEX\MiKTeX\tex\latex\cjk\UTF8\UTF8.bdg
+File: UTF8.bdg 2008/12/29 4.8.2
+)
+(C:\CTEX\MiKTeX\tex\latex\cjk\UTF8\UTF8.enc
+File: UTF8.enc 2008/12/29 4.8.2
+)
+(C:\CTEX\MiKTeX\tex\latex\cjk\UTF8\UTF8.chr
+File: UTF8.chr 2008/12/29 4.8.2
+)
 (C:\CTEX\MiKTeX\tex\latex\base\makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
@@ -210,24 +231,88 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
 (C:\Users\Administrator\Documents\GitHub\nlpcc_qa\main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count117
 \scratchdimen=\dimen126
-\scratchbox=\box54
+\scratchbox=\box55
 \nofMPsegments=\count118
 \nofMParguments=\count119
 \everyMPshowfont=\toks19
@@ -238,148 +323,24 @@ LaTeX Font Info:    ... okay on input line 12.
 \everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 36.
+(Font)              <7> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 36.
-Missing character: There is no ¡ in font cmr9!
-Missing character: There is no ¯ in font cmr9!
-Missing character: There is no Ö in font cmr10!
-Missing character: There is no Ð in font cmr10!
-Missing character: There is no Î in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no Ñ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no ã in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ´ in font cmr10!
-Missing character: There is no Ê in font cmr10!
-Missing character: There is no Ï in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no Á in font cmr10!
-Missing character: There is no ¿ in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no À in font cmr10!
-Missing character: There is no Á in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no Ð in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no ¼ in font cmr10!
-Missing character: There is no Ù in font cmr10!
-Missing character: There is no É in font cmr10!
-Missing character: There is no è in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no Þ in font cmr10!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no ¹ in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ´ in font cmr10!
-Missing character: There is no ¼ in font cmr10!
-Missing character: There is no Ó in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no û in font cmr10!
-Missing character: There is no º in font cmr10!
-Missing character: There is no þ in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no æ in font cmr10!
-Missing character: There is no » in font cmr10!
-Missing character: There is no ý in font cmr10!
-Missing character: There is no Ó in font cmr10!
-Missing character: There is no Ð in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no ´ in font cmr10!
-Missing character: There is no ó in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ´ in font cmr10!
-Missing character: There is no ¼ in font cmr10!
-Missing character: There is no Ó in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no û in font cmr10!
-Missing character: There is no º in font cmr10!
-Missing character: There is no þ in font cmr10!
-Missing character: There is no ³ in font cmr10!
-Missing character: There is no ¤ in font cmr10!
-Missing character: There is no ¹ in font cmr10!
-Missing character: There is no « in font cmr10!
-Missing character: There is no À in font cmr10!
-Missing character: There is no ï in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Æ in font cmr10!
-Missing character: There is no ½ in font cmr10!
-Missing character: There is no ¾ in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ¿ in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no ¹ in font cmr10!
-Missing character: There is no « in font cmr10!
-Missing character: There is no À in font cmr10!
-Missing character: There is no ï in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no × in font cmr10!
-Missing character: There is no î in font cmr10!
-Missing character: There is no ¿ in font cmr10!
-Missing character: There is no í in font cmr10!
-Missing character: There is no ¹ in font cmr10!
-Missing character: There is no « in font cmr10!
-Missing character: There is no À in font cmr10!
-Missing character: There is no ï in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no æ in font cmr10!
-Missing character: There is no » in font cmr10!
-Missing character: There is no ý in font cmr10!
-Missing character: There is no Í in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no Æ in font cmr10!
-Missing character: There is no ½ in font cmr10!
-Missing character: There is no · in font cmr10!
-Missing character: There is no ½ in font cmr10!
-Missing character: There is no ¹ in font cmr10!
-Missing character: There is no « in font cmr10!
-Missing character: There is no À in font cmr10!
-Missing character: There is no ï in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ± in font cmr10!
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 49.
- (C:\CTEX\MiKTeX\tex\latex\base\omlcmr.fd
+(Font)              <5> on input line 38.
+LaTeX Font Info:    Try loading font information for C70+song on input line 43.
+
+ (C:\CTEX\CTeX\tex\latex\CJK\UTF8\c70song.fd
+File: c70song.fd 2009/09/23 4.8.2
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 51.
+
+(C:\CTEX\MiKTeX\tex\latex\base\omlcmr.fd
 File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 49.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 51.
  [1
 
 {C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
-Missing character: There is no · in font cmr10!
-Missing character: There is no ½ in font cmr10!
-Missing character: There is no · in font cmr10!
-Missing character: There is no ¨ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no Ð in font cmr10!
-Missing character: There is no Í in font cmr10!
-Missing character: There is no ½ in font cmr10!
-Missing character: There is no é in font cmr10!
-Missing character: There is no É in font cmr10!
-Missing character: There is no Ü in font cmr10!
 Package epstopdf Info: Source file: <figures/character_overlap.eps>
 (epstopdf)                    date: 2016-07-26 19:18:34
 (epstopdf)                    size: 2473034 bytes
@@ -389,14 +350,14 @@ Package epstopdf Info: Source file: <figures/character_overlap.eps>
 (epstopdf)                    size: 18805 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/character_overlap-e
 ps-converted-to.pdf figures/character_overlap.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/character_overlap-eps-converted-to.pdf, id=10, 602.25pt x 448.67625pt>
+<figures/character_overlap-eps-converted-to.pdf, id=24, 602.25pt x 448.67625pt>
 File: figures/character_overlap-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/character_overlap-eps-converted-to.pdf>
 Package pdftex.def Info: figures/character_overlap-eps-converted-to.pdf used on
- input line 72.
+ input line 74.
 (pdftex.def)             Requested size: 289.07999pt x 215.369pt.
 Package epstopdf Info: Source file: <figures/word_overlap.eps>
 (epstopdf)                    date: 2016-07-26 19:18:34
@@ -407,44 +368,16 @@ Package epstopdf Info: Source file: <figures/word_overlap.eps>
 (epstopdf)                    size: 17863 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/word_overlap-eps-co
 nverted-to.pdf figures/word_overlap.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/word_overlap-eps-converted-to.pdf, id=11, 602.25pt x 448.67625pt>
+<figures/word_overlap-eps-converted-to.pdf, id=25, 602.25pt x 448.67625pt>
 File: figures/word_overlap-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/word_overlap-eps-converted-to.pdf>
 Package pdftex.def Info: figures/word_overlap-eps-converted-to.pdf used on inpu
-t line 80.
+t line 82.
 (pdftex.def)             Requested size: 289.07999pt x 215.369pt.
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ¯ in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no Ê in font cmr10!
-Missing character: There is no ² in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ´ in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¿ in font cmr10!
-Missing character: There is no ¼ in font cmr10!
-Missing character: There is no ¸ in font cmr10!
-Missing character: There is no ¸ in font cmr10!
-Missing character: There is no ö in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¿ in font cmr10!
-Missing character: There is no ¶ in font cmr10!
-Missing character: There is no à in font cmr10!
-Missing character: There is no É in font cmr10!
-Missing character: There is no Ù in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¿ in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ¯ in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ¯ in font cmr10!
  [2]
 Package epstopdf Info: Source file: <figures/character_position.eps>
 (epstopdf)                    date: 2016-07-27 10:01:47
@@ -455,15 +388,15 @@ o.pdf>
 (epstopdf)                    size: 29130 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/character_position-
 eps-converted-to.pdf figures/character_position.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/character_position-eps-converted-to.pdf, id=17, 578.16pt x 430.60875pt
+<figures/character_position-eps-converted-to.pdf, id=50, 578.16pt x 430.60875pt
 >
 File: figures/character_position-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/character_position-eps-converted-to.pdf>
 Package pdftex.def Info: figures/character_position-eps-converted-to.pdf used o
-n input line 92.
+n input line 94.
 (pdftex.def)             Requested size: 289.07999pt x 215.30383pt.
 Package epstopdf Info: Source file: <figures/word_position.eps>
 (epstopdf)                    date: 2016-07-27 10:01:47
@@ -474,15 +407,15 @@ Package epstopdf Info: Source file: <figures/word_position.eps>
 (epstopdf)                    size: 22072 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/word_position-eps-c
 onverted-to.pdf figures/word_position.eps>
-(epstopdf)             \includegraphics on input line 99.
+(epstopdf)             \includegraphics on input line 101.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/word_position-eps-converted-to.pdf, id=18, 803.0pt x 598.235pt>
+<figures/word_position-eps-converted-to.pdf, id=51, 803.0pt x 598.235pt>
 File: figures/word_position-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/word_position-eps-converted-to.pdf>
 Package pdftex.def Info: figures/word_position-eps-converted-to.pdf used on inp
-ut line 99.
+ut line 101.
 (pdftex.def)             Requested size: 289.07999pt x 215.36443pt.
  [3 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/character_overlap
 -eps-converted-to.pdf>]
@@ -490,67 +423,14 @@ ut line 99.
 onverted-to.pdf> <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/char
 acter_position-eps-converted-to.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 114.
+(Font)              <9> on input line 116.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 114.
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Ê in font cmr10!
-Missing character: There is no Ç in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¬ in font cmr10!
-Missing character: There is no Ô in font cmr10!
-Missing character: There is no Ú in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ¡ in font cmbx10!
-Missing character: There is no ¯ in font cmbx10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ¯ in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no Ö in font cmr10!
-Missing character: There is no Ð in font cmr10!
-Missing character: There is no Ñ in font cmr10!
-Missing character: There is no ë in font cmr10!
-Missing character: There is no ´ in font cmr10!
-Missing character: There is no ó in font cmr10!
-Missing character: There is no Ñ in font cmr10!
-Missing character: There is no § in font cmr10!
-Missing character: There is no µ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no Ð in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ³ in font cmr10!
-Missing character: There is no ¤ in font cmr10!
-Missing character: There is no Ê in font cmr10!
-Missing character: There is no Ç in font cmr10!
-Missing character: There is no Ë in font cmr10!
-Missing character: There is no ­ in font cmr10!
-Missing character: There is no £ in font cmr10!
-Missing character: There is no ¿ in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ± in font cmr10!
+(Font)              <6> on input line 116.
+
+Underfull \vbox (badness 1888) has occurred while \output is active []
+
  [5 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/word_position-eps
--converted-to.pdf>]
-Missing character: There is no Ò in font cmr10!
-Missing character: There is no ý in font cmr10!
-Missing character: There is no Ó in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ° in font cmr10!
-Missing character: There is no ¡ in font cmr10!
-Missing character: There is no ± in font cmr10!
+-converted-to.pdf>] [6]
 Package epstopdf Info: Source file: <figures/model.eps>
 (epstopdf)                    date: 2016-07-27 10:44:36
 (epstopdf)                    size: 10495356 bytes
@@ -559,46 +439,73 @@ Package epstopdf Info: Source file: <figures/model.eps>
 (epstopdf)                    size: 110504 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/model-eps-converted
 -to.pdf figures/model.eps>
-(epstopdf)             \includegraphics on input line 149.
+(epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/model-eps-converted-to.pdf, id=45, 1500.60625pt x 777.90625pt>
+<figures/model-eps-converted-to.pdf, id=86, 1500.60625pt x 777.90625pt>
 File: figures/model-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/model-eps-converted-to.pdf>
 Package pdftex.def Info: figures/model-eps-converted-to.pdf used on input line 
-149.
+151.
 (pdftex.def)             Requested size: 455.24408pt x 235.99692pt.
 
-Overfull \hbox (108.12054pt too wide) in paragraph at lines 149--150
+Overfull \hbox (108.12054pt too wide) in paragraph at lines 151--152
  [][] 
  []
 
-[6] [7 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/model-eps-conv
-erted-to.pdf>] (C:\Users\Administrator\Documents\GitHub\nlpcc_qa\main.bbl)
-[8] (C:\Users\Administrator\Documents\GitHub\nlpcc_qa\main.aux) ) 
+
+Underfull \vbox (badness 8075) has occurred while \output is active []
+
+ [7 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/model-eps-convert
+ed-to.pdf>]
+(C:\Users\Administrator\Documents\GitHub\nlpcc_qa\main.bbl [8]) [9]
+(C:\Users\Administrator\Documents\GitHub\nlpcc_qa\main.aux) ) 
 Here is how much of TeX's memory you used:
- 1933 strings out of 495354
- 26846 string characters out of 3183859
- 88286 words of memory out of 3000000
- 5082 multiletter control sequences out of 15000+200000
- 7634 words of font info for 27 fonts, out of 3000000 for 9000
+ 3050 strings out of 495354
+ 39214 string characters out of 3183859
+ 108640 words of memory out of 3000000
+ 6135 multiletter control sequences out of 15000+200000
+ 18920 words of font info for 66 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,9n,23p,1361b,229s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/CTEX/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb
-><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmmi5.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/CT
-EX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7
-.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/CTEX/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (8 pages, 381391 bytes).
+ 42i,9n,23p,1404b,1563s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/CTEX/CTeX/font
+s/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
+C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chi
+nese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/f
+onts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.tt
+f><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
+chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
+X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
+.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truety
+pe/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/
+CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/sim
+sun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/tru
+etype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CT
+EX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/
+simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/
+truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:
+/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chine
+se/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fon
+ts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf>
+<C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/ch
+inese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/
+fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.t
+tf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype
+/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/CTEX/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.
+pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/CTEX/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmmi5.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
+/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/CTEX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/CTEX/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on main.pdf (9 pages, 468587 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 265 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
