@@ -25,6 +25,17 @@
 T.~Mikolov, K.~Chen, G.~Corrado, and J.~Dean, ``Efficient estimation of word
   representations in vector space,'' \emph{Computer Science}, 2013.
 
+\bibitem{Mikolov2013Distributed}
+T.~Mikolov, I.~Sutskever, K.~Chen, G.~Corrado, and J.~Dean, ``Distributed
+  representations of words and phrases and their compositionality,''
+  \emph{Advances in Neural Information Processing Systems}, vol.~26, pp.
+  3111--3119, 2013.
+
+\bibitem{Sun2014Radical}
+Y.~Sun, L.~Lin, N.~Yang, Z.~Ji, and X.~Wang, \emph{Radical-Enhanced Chinese
+  Character Embedding}.\hskip 1em plus 0.5em minus 0.4em\relax Springer
+  International Publishing, 2014.
+
 \bibitem{Yao2013Answer}
 X.~Yao, B.~V. Durme, C.~Callison-Burch, and P.~Clark, ``Answer extraction as
   sequence tagging with tree edit distance,'' in \emph{Conference of the North
@@ -90,13 +101,9 @@ X.~Li and D.~Roth, ``Learning question classifiers,'' \emph{Coling}, vol.~12,
 
 \bibitem{Liu2009Learning}
 T.~Y. Liu, \emph{Learning to Rank for Information Retrieval.}\hskip 1em plus
-  0.5em minus 0.4em\relax Now Publishers,, 2009.
+  0.5em minus 0.4em\relax Now Publishers, 2009.
 
 \bibitem{Chen2016XGBoost}
 T.~Chen and C.~Guestrin, ``Xgboost: A scalable tree boosting system,'' 2016.
-
-\bibitem{Li2015Component}
-Y.~Li, W.~Li, F.~Sun, and S.~Li, ``Component-enhanced chinese character
-  embeddings,'' \emph{Computer Science}, 2015.
 
 \end{thebibliography}
