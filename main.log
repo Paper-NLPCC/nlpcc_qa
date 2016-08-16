@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.28)  15 AUG 2016 23:35
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.28)  12 AUG 2016 11:19
 entering extended mode
 **C:/Users/Administrator/Documents/GitHub/nlpcc_qa/main.tex
 (C:/Users/Administrator/Documents/GitHub/nlpcc_qa/main.tex
@@ -270,91 +270,83 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count124
 \@thisrulewidth=\dimen140
 )
-(C:\CTEX\MiKTeX\tex\latex\graphics\color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
-
-(C:\CTEX\MiKTeX\tex\latex\00miktex\color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package color Info: Driver file: pdftex.def on input line 130.
-)
 (C:\Users\Administrator\Documents\GitHub\nlpcc_qa\main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -371,94 +363,82 @@ LaTeX Font Info:    ... okay on input line 18.
 \everyMPtoPDFconversion=\toks20
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 56.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 56.
- [1
+(Font)              <5> on input line 41.
+LaTeX Font Info:    Try loading font information for C70+song on input line 46.
 
-{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}]
-LaTeX Font Info:    Try loading font information for C70+song on input line 78.
-
-
-(C:\CTEX\CTeX\tex\latex\CJK\UTF8\c70song.fd
+ (C:\CTEX\CTeX\tex\latex\CJK\UTF8\c70song.fd
 File: c70song.fd 2009/09/23 4.8.2
-) [2]
-Overfull \hbox (3.12697pt too wide) in paragraph at lines 106--107
-[]\OT1/cmr/m/n/10 Recently, the end-to-end s-trat-e-gy mo-ti-vates re-searcher-
-s to build a deep syman-
- []
+) [1
 
+{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}] [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 127.
+(Font)              <9> on input line 114.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 127.
+(Font)              <6> on input line 114.
 
-Overfull \hbox (16.93585pt too wide) in paragraph at lines 127--141
+Overfull \hbox (16.93585pt too wide) in paragraph at lines 114--128
  [][] 
  []
 
-
-Overfull \hbox (16.93585pt too wide) in paragraph at lines 153--168
+[3]
+Overfull \hbox (16.93585pt too wide) in paragraph at lines 140--154
  [][] 
  []
 
 Package epstopdf Info: Source file: <figures/word_overlap.eps>
-(epstopdf)                    date: 2016-08-15 10:19:23
-(epstopdf)                    size: 26433 bytes
+(epstopdf)                    date: 2016-07-26 19:18:34
+(epstopdf)                    size: 2473604 bytes
 (epstopdf)             Output file: <figures/word_overlap-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2016-08-15 10:19:31
-(epstopdf)                    size: 16306 bytes
+(epstopdf)                    date: 2016-07-26 19:18:34
+(epstopdf)                    size: 17863 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/word_overlap-eps-co
 nverted-to.pdf figures/word_overlap.eps>
-(epstopdf)             \includegraphics on input line 185.
+(epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<figures/word_overlap-eps-converted-to.pdf, id=16, 578.16pt x 430.60875pt>
+<figures/word_overlap-eps-converted-to.pdf, id=44, 602.25pt x 448.67625pt>
 File: figures/word_overlap-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/word_overlap-eps-converted-to.pdf>
 Package pdftex.def Info: figures/word_overlap-eps-converted-to.pdf used on inpu
-t line 185.
-(pdftex.def)             Requested size: 180.67499pt x 134.5649pt.
+t line 172.
+(pdftex.def)             Requested size: 180.67499pt x 134.60391pt.
 
-Overfull \hbox (7.11322pt too wide) in paragraph at lines 184--186
+Overfull \hbox (7.11322pt too wide) in paragraph at lines 171--173
 [][][] 
  []
 
 Package epstopdf Info: Source file: <figures/character_overlap.eps>
-(epstopdf)                    date: 2016-08-15 10:18:10
-(epstopdf)                    size: 26196 bytes
+(epstopdf)                    date: 2016-07-26 19:18:34
+(epstopdf)                    size: 2473034 bytes
 (epstopdf)             Output file: <figures/character_overlap-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2016-08-15 10:19:31
-(epstopdf)                    size: 17964 bytes
+(epstopdf)                    date: 2016-07-26 19:18:34
+(epstopdf)                    size: 18805 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/character_overlap-e
 ps-converted-to.pdf figures/character_overlap.eps>
-(epstopdf)             \includegraphics on input line 193.
+(epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/character_overlap-eps-converted-to.pdf, id=17, 578.16pt x 430.60875pt>
+<figures/character_overlap-eps-converted-to.pdf, id=45, 602.25pt x 448.67625pt>
 File: figures/character_overlap-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/character_overlap-eps-converted-to.pdf>
 Package pdftex.def Info: figures/character_overlap-eps-converted-to.pdf used on
- input line 193.
-(pdftex.def)             Requested size: 180.67499pt x 134.5649pt.
+ input line 180.
+(pdftex.def)             Requested size: 180.67499pt x 134.60391pt.
 
-Overfull \hbox (7.11322pt too wide) in paragraph at lines 192--194
+Overfull \hbox (7.11322pt too wide) in paragraph at lines 179--181
 [][][] 
  []
 
 
-Overfull \hbox (7.98607pt too wide) in paragraph at lines 182--197
+Overfull \hbox (7.98607pt too wide) in paragraph at lines 169--184
 [][]   [] 
  []
 
-[3]
-Underfull \vbox (badness 7944) has occurred while \output is active []
-
- [4 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/word_overlap-eps-
-converted-to.pdf> <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/cha
-racter_overlap-eps-converted-to.pdf>]
+[4]
 Package epstopdf Info: Source file: <figures/word_position.eps>
 (epstopdf)                    date: 2016-07-27 10:01:47
 (epstopdf)                    size: 2480604 bytes
@@ -468,19 +448,28 @@ Package epstopdf Info: Source file: <figures/word_position.eps>
 (epstopdf)                    size: 22072 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/word_position-eps-c
 onverted-to.pdf figures/word_position.eps>
-(epstopdf)             \includegraphics on input line 212.
+(epstopdf)             \includegraphics on input line 199.
 Package epstopdf Info: Output file is already uptodate.
-
-<figures/word_position-eps-converted-to.pdf, id=121, 803.0pt x 598.235pt>
+ <figures/word_position-eps-converted-to.pdf, id=60, 803.0pt x 598.235pt>
 File: figures/word_position-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/word_position-eps-converted-to.pdf>
 Package pdftex.def Info: figures/word_position-eps-converted-to.pdf used on inp
-ut line 212.
+ut line 199.
 (pdftex.def)             Requested size: 180.67499pt x 134.59706pt.
 
-Overfull \hbox (7.11322pt too wide) in paragraph at lines 211--213
+Overfull \hbox (7.11322pt too wide) in paragraph at lines 198--200
 [][][] 
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 200--200
+[]\OT1/cmr/bx/n/9 Fig.3. \OT1/cmr/m/n/9 x-axis refer-s to the po-si-tion of
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 200--200
+\OT1/cmr/m/n/9 char-ac-ter is on the fron-t of a sen-
  []
 
 Package epstopdf Info: Source file: <figures/character_position.eps>
@@ -492,61 +481,90 @@ o.pdf>
 (epstopdf)                    size: 29130 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/character_position-
 eps-converted-to.pdf figures/character_position.eps>
-(epstopdf)             \includegraphics on input line 220.
+(epstopdf)             \includegraphics on input line 207.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/character_position-eps-converted-to.pdf, id=122, 578.16pt x 430.60875p
-t>
+<figures/character_position-eps-converted-to.pdf, id=61, 578.16pt x 430.60875pt
+>
 File: figures/character_position-eps-converted-to.pdf Graphic file (type pdf)
  <use figures/character_position-eps-converted-to.pdf>
 Package pdftex.def Info: figures/character_position-eps-converted-to.pdf used o
-n input line 220.
+n input line 207.
 (pdftex.def)             Requested size: 180.67499pt x 134.5649pt.
 
-Overfull \hbox (7.11322pt too wide) in paragraph at lines 219--221
+Overfull \hbox (7.11322pt too wide) in paragraph at lines 206--208
 [][][] 
  []
 
 
-Overfull \hbox (7.98607pt too wide) in paragraph at lines 209--224
+Overfull \hbox (7.98607pt too wide) in paragraph at lines 196--211
 [][]   [] 
  []
 
-<figures/structure.pdf, id=123, 963.6pt x 542.025pt>
+<figures/structure.pdf, id=62, 963.6pt x 542.025pt>
 File: figures/structure.pdf Graphic file (type pdf)
 
 <use figures/structure.pdf>
-Package pdftex.def Info: figures/structure.pdf used on input line 242.
+Package pdftex.def Info: figures/structure.pdf used on input line 262.
 (pdftex.def)             Requested size: 341.43306pt x 192.05217pt.
- [5 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/word_position-eps
+ [5 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/word_overlap-eps-
+converted-to.pdf> <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/cha
+racter_overlap-eps-converted-to.pdf>]
+Underfull \vbox (badness 2875) has occurred while \output is active []
+
+ [6 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/word_position-eps
 -converted-to.pdf> <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/ch
-aracter_position-eps-converted-to.pdf>] [6 <C:/Users/Administrator/Documents/Gi
+aracter_position-eps-converted-to.pdf>] [7 <C:/Users/Administrator/Documents/Gi
 tHub/nlpcc_qa/figures/structure.pdf>]
-<figures/nn.pdf, id=146, 963.6pt x 542.025pt>
-File: figures/nn.pdf Graphic file (type pdf)
- <use figures/nn.pdf>
-Package pdftex.def Info: figures/nn.pdf used on input line 306.
-(pdftex.def)             Requested size: 341.43306pt x 192.05217pt.
- [7] [8 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/nn.pdf>]
-Overfull \hbox (6.35315pt too wide) in paragraph at lines 335--349
+Package epstopdf Info: Source file: <figures/model.eps>
+(epstopdf)                    date: 2016-07-27 10:44:36
+(epstopdf)                    size: 10495356 bytes
+(epstopdf)             Output file: <figures/model-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-07-27 10:48:43
+(epstopdf)                    size: 110504 bytes
+(epstopdf)             Command: <epstopdf --outfile=figures/model-eps-converted
+-to.pdf figures/model.eps>
+(epstopdf)             \includegraphics on input line 325.
+Package epstopdf Info: Output file is already uptodate.
+
+<figures/model-eps-converted-to.pdf, id=102, 1500.60625pt x 777.90625pt>
+File: figures/model-eps-converted-to.pdf Graphic file (type pdf)
+
+<use figures/model-eps-converted-to.pdf>
+Package pdftex.def Info: figures/model-eps-converted-to.pdf used on input line 
+325.
+(pdftex.def)             Requested size: 455.24408pt x 235.99692pt.
+
+Overfull \hbox (108.12054pt too wide) in paragraph at lines 325--326
+ [][] 
+ []
+
+[8 <C:/Users/Administrator/Documents/GitHub/nlpcc_qa/figures/model-eps-converte
+d-to.pdf>]
+Overfull \hbox (6.35315pt too wide) in paragraph at lines 349--363
 [][] 
  []
 
 [9]
-Overfull \hbox (16.93585pt too wide) in paragraph at lines 380--393
+Overfull \hbox (16.93585pt too wide) in paragraph at lines 395--406
+ [][] 
+ []
+
+
+Overfull \hbox (16.93585pt too wide) in paragraph at lines 414--429
  [][] 
  []
 
 [10] (C:\Users\Administrator\Documents\GitHub\nlpcc_qa\main.bbl [11]) [12]
 (C:\Users\Administrator\Documents\GitHub\nlpcc_qa\main.aux) ) 
 Here is how much of TeX's memory you used:
- 3430 strings out of 495354
- 44735 string characters out of 3183859
- 118132 words of memory out of 3000000
- 6489 multiletter control sequences out of 15000+200000
- 28975 words of font info for 100 fonts, out of 3000000 for 9000
+ 3403 strings out of 495354
+ 44521 string characters out of 3183859
+ 115114 words of memory out of 3000000
+ 6467 multiletter control sequences out of 15000+200000
+ 31243 words of font info for 108 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,12n,24p,1248b,1867s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,24p,1227b,1799s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/font
 s/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><
 C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chi
@@ -590,9 +608,9 @@ mr9.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/CTEX/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmti10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb
 >
-Output written on main.pdf (12 pages, 735752 bytes).
+Output written on main.pdf (12 pages, 646355 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
+ 334 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
